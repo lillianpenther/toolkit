@@ -12,9 +12,9 @@ header { grid-template-columns: none; }
     color:darkslategrey;
 }
 .profile_thumb picture { grid-area: pic;}
-.profile_thumb h3 { font-size: 1.3em; }
-.profile_thumb p.major { margin-bottom: 5px;}
-.profile_thumb p.year { }
+.profile_thumb h3 { font-size: 1.2rem; }
+.profile_thumb p.major { margin-bottom: 0;}
+.profile_thumb p.year { margin-top: 0;}
 .profile_thumb {
     display:grid;
     max-height: 200px;
@@ -22,10 +22,16 @@ header { grid-template-columns: none; }
     gap: 10px;
     grid-template-areas: "pic info";
 }
+.profile_thumb p { font-size:.9rem;}
 @media (min-width: 600px) {
     section { grid-template-columns: repeat(2, 1fr); }
+    footer { grid-template-columns: repeat(2, 1fr); }
+    footer img { grid-column-start: 2; }
 }
 @media (min-width: 900px) {
     section { grid-template-columns: repeat(3, 1fr); }
+    footer { grid-template-columns: repeat(3, 1fr); }
+    footer img { grid-column-start: 3; }
 }
-footer { margin-top:3em; }
+footer {  margin-top:3rem;  }
+footer img { justify-self: end;}
