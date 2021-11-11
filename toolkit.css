@@ -1,0 +1,6 @@
+html, body { margin:0; padding:0; }
+body { font-family: 'IBM Plex Mono', monospace; }
+section { min-height: 100vh; display:grid; padding:0 10%; grid-template-columns: 50% 50%; grid-column-gap: 2rem; }
+section.intro { background-color: #D41E00; color:#ffffff; }
+h1 { margin-top: 0; font-family: 'IBM Plex Sans', sans-serif; font-weight:600; font-size: 4rem; text-align: right;}
+section.intro h2 { margin-top: 0; font-family: 'IBM Plex Sans', sans-serif; font-weight:600; font-size: 4rem; text-align: left; color: black;}
