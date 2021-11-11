@@ -4,7 +4,7 @@ html {
 
 body { 
     font-family: freight-text-pro, serif;
-    font-size: 22px;
+    font-size: 30px;
     background-image: url("images/paper-seamless-background.jpeg");
     color: black;
     margin: 0;
@@ -59,10 +59,8 @@ header, footer {
 p {
     line-height: 150%;
 }
+@media (min-width:320px)  { body { font-size: 30px; } blockquote { font-size: 30px; /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:641px)  { body { font-size: 28px; } blockquote { font-size: 28px; /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { body { font-size: 28px; } blockquote { font-size: 28px;/* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1281px) { body { font-size: 24px; } blockquote { font-size: 24px;/* hi-res laptops and desktops */ }
 
-@media (min-width: 900px) {
-    blockquote { font-size: 28px; }
-}
-@media (min-width: 600px) {
-    blockquote { font-size: 24px; }
-}
