@@ -8,7 +8,6 @@ header {
   height: 130px; 
   margin-top: 16px;
   margin-bottom: 32px;
-  background-color:yellow;
 }
 .ad {
   height: 270px;
@@ -21,4 +20,6 @@ body {
 .above_the_fold {
   max-width: 1288px;
   margin:0 auto;
+  display:grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
 }
