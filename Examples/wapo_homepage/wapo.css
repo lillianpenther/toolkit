@@ -1,0 +1,18 @@
+html, body { margin:0; }
+nav { 
+  /* height: 60px */
+background-color: black; 
+  color:white;
+}
+header { /* height: 130px; 
+margin-top: 16px;
+margin-bottom: 32px; */
+background-color:yellow;}
+ad {
+  /* height: 270px;
+  padding: 0 10px 20px 10px; */
+}
+body {
+  display:grid;
+  grid-template-rows: 60px 178px 290px auto;
+}
