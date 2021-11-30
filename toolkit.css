@@ -11,8 +11,9 @@ section.intro h1 { margin-top: 0; font-family: 'IBM Plex Sans', sans-serif; font
 section.intro { background-color: #D41E00; color:#ffffff; grid-template-columns: 50% 50%; grid-template-rows: 80% 20%; align-items: center; }
 section.intro h2 { margin-top: 0; font-family: 'IBM Plex Sans', sans-serif; font-weight:600; font-size: 4rem; text-align: left; color: black;}
 
-section.contents { background-color: #481D01;}
-section.contents h2 {  font-family: 'IBM Plex Sans', sans-serif; font-weight:600; font-size: 4rem; text-align: left; color: white; }
+section.contents { background-color: #481D01; grid-template-rows: 20vh auto; }
+section.contents a { color:#ffffff;}
+section.contents h2 {  font-family: 'IBM Plex Sans', sans-serif; font-weight:600; font-size: 4rem; text-align: left; color: white; margin-bottom:0; }
 section.contents ul { color: #ffffff; }
 section.contents a:visited { color: #eeeeee;}
 section.resources { background-color:#F5631A;}
