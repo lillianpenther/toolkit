@@ -18,3 +18,7 @@ body {
   display:grid;
   grid-template-rows: 60px 178px 290px auto;
 }
+.above_the_fold {
+  max-width: 1288px;
+  margin:0 auto;
+}
