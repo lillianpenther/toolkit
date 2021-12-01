@@ -1,29 +1,26 @@
-html, body { margin:0; }
-nav { 
-  /* height: 60px */
-background-color: black; 
-  color:white;
-  position:fixed;
-}
-header { 
-  height: 130px; 
-  margin-top: 16px;
-  margin-bottom: 32px;
-}
-.ad {
-  height: 270px;
-  padding: 0 10px 20px 10px; 
-}
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Libre+Franklin:ital,wght@0,300;1,300&display=swap');
+
+html, body { margin: 0; }
 body {
   display:grid;
-  grid-template-rows: 60px 178px 290px auto;
+  grid-template-rows: 60px 178px 270px auto;
+}
+nav {
+  background-color: black;
+  color:white;
+}
+header {
+  background-color:#DEC438;
+}
+.ad {
+  background-color:#efefef;
 }
 .above_the_fold {
-  max-width: 1288px;
-  margin:0 auto;
+  width:1288px;
+  margin: 0 auto;
   display:grid;
   grid-template-columns: 1fr 2fr 1fr 1fr;
-  grid-template-rows: minmax(40vh, max-content);
+  grid-template-rows: minmax(50vh, max-content);
 }
 .colA {
   background-color:#DE7438;
@@ -36,4 +33,20 @@ body {
 }
 .colD {
   background-color:#1DBFB6;
+}
+.card h2 {
+  font-family: 'Bodoni Moda', serif;
+  font-weight:700;
+  line-height:1em;
+  font-size: 2rem;
+  margin-bottom:.5em;
+}
+.card .subhed {
+  font-family: 'Libre Franklin', sans-serif;
+  margin-bottom:1em;
+}
+.card .byline { 
+font-family: 'Libre Franklin', sans-serif;
+  font-size:.7rem;
+  color:#666666;
 }
