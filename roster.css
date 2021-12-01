@@ -1,5 +1,6 @@
-body { background: rgb(195,105,34);
-    background: linear-gradient(0deg, rgba(195,105,34,1) 0%, rgba(253,187,45,1) 100%); font-family: 'IBM Plex Sans', sans-serif; color: white; }
+html { background: rgb(195,105,34);
+    background: linear-gradient(0deg, rgba(195,105,34,1) 0%, rgba(253,187,45,1) 100%); }
+body { font-family: 'IBM Plex Sans', sans-serif; color: white; }
 a:visited { color: #eeeeee; text-decoration: none;}
 header, section, footer {
     display: grid;
