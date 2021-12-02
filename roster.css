@@ -9,7 +9,7 @@ header, section, footer {
     grid-gap: 1rem;
 }
 header { grid-template-columns: none; }
-
+h1 { color:black;}
 .profile_thumb {
     background-color:antiquewhite;
     color:darkslategrey;
